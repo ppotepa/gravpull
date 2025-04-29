@@ -74,6 +74,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v140\x64\lib;$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v141\x64\lib;$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v141\win32\lib;$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v140\win32\lib;$(LibraryPath)</LibraryPath>
     <Allegro_AddonImage>true</Allegro_AddonImage>
     <Allegro_AddonTTF>true</Allegro_AddonTTF>
     <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
@@ -97,6 +98,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v140\x64\lib;$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v141\x64\lib;$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v141\win32\lib;$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v140\win32\lib;$(LibraryPath)</LibraryPath>
     <Allegro_AddonImage>true</Allegro_AddonImage>
     <Allegro_AddonTTF>true</Allegro_AddonTTF>
     <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
@@ -111,6 +113,10 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v140\x64\lib;$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v141\x64\lib;$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v141\win32\lib;$(SolutionDir)\packages\Allegro.5.2.4.0\build\native\v140\win32\lib;$(LibraryPath)</LibraryPath>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
