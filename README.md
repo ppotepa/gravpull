@@ -1,3 +1,9 @@
+
+![image](https://github.com/user-attachments/assets/14a7a03a-a706-45be-b8ef-abe4f9657bc0)
+![image](https://github.com/user-attachments/assets/224420e8-99ce-4d7f-87bc-0334c6fd0a23)
+
+
+
 # Grav Pull
 
 Grav Pull is a C++ application designed to demonstrate or simulate gravitational pull mechanics. The project is built using Visual Studio and leverages the Allegro library for graphics and other functionalities.
